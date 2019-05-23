@@ -33,8 +33,8 @@
 
 #define MAX_FILE_SIZE	(0x4000u - 1)
 
-static const char *SdmcFilepath = "sdmc:/3ds/fastbootcfg.txt";
-static const char *NandFilepath = "nand:/fastboot3DS/fastbootcfg.txt";
+static const char *SdmcFilepath = "sdmc:/boot/boot.cfg";
+static const char *NandFilepath = "sdmc:/boot/boot.cfg";
 
 static const char *filepath;
 
